@@ -1,8 +1,7 @@
-import './App.css';
-import Likes from './Likes';
-import Title from './Title';
-
-
+import "./App.css";
+import Likes from "./Likes";
+import Title from "./Title";
+import Comments from "./Comments";
 
 function App() {
   return (
@@ -10,10 +9,11 @@ function App() {
       <div className="wrap">
         <div className="card">
           <div className="card-image">
-            <img src="./sea.jpg" alt="surfing"/>
+            <img src="./sea.jpg" alt="surfing" />
             <Title></Title>
-            <Likes ></Likes>
+            <Likes></Likes>
           </div>
+          <Comments></Comments>
         </div>
       </div>
     </div>
